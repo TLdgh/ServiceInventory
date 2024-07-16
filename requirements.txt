@@ -4,3 +4,4 @@ plotly
 ipykernel
 pytest
 nbformat
+kaleido

@@ -11,3 +11,12 @@ SvcInvVenv/
 
 # data
 data/
+
+# Tex files
+TexFiles/*
+!/TexFiles/*.tex
+!/TexFiles/Figures
+!/TexFiles/Parameters
+!/TexFiles/Sections
+!/TexFiles/Sample.bib
+!/TexFiles/*.pdf
