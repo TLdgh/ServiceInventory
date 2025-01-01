@@ -5,3 +5,6 @@ ipykernel
 pytest
 nbformat
 kaleido
+psycopg2
+pyodbc
+python-dotenv

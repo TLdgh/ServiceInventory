@@ -12,6 +12,9 @@ SvcInvVenv/
 # data
 data/
 
+#.env file
+.env
+
 # Tex files
 TexFiles/*
 !/TexFiles/*.tex
