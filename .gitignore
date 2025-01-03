@@ -11,6 +11,7 @@ SvcInvVenv/
 
 # data
 data/
+sql_db
 
 #.env file
 .env
