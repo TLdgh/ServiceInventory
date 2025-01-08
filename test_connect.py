@@ -51,7 +51,7 @@ def azure_connection():
     connect_azure.close()
 
 
-
+# Test function for extracting tables from local PostgreSQL database
 def test_pgExtract(pg_connection):
     #Ground truth
     ground_truth=[(datetime.date(2021, 10, 11), 14810.25, 14897.25, 14585.5, 14653.25, 1104423)]
@@ -64,7 +64,7 @@ def test_pgExtract(pg_connection):
     assert result_pg==ground_truth, f"Data mismatch: {result_pg} != {ground_truth}"
 
 
-
+# Test Azure resource connection
 def test_azureSqlConnect(azure_connection):
     #Query to get the SQL Server version
     azure_connection.execute("SELECT @@version;") 
